@@ -1,0 +1,16 @@
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["borisyiuws@outlook.com"]
+description = "MAPI facade on fastly"
+language = "assemblyscript"
+manifest_version = 2
+name = "fastly-mapi"
+service_id = "42ZzzIoIaIfi6r4B8xuK3X"
+
+[local_server]
+
+  [local_server.backends]
+
+    [local_server.backends.backend_1]
+      url = "https://mobile-origin.mobile-aws.code.dev-guardianapis.com/"
