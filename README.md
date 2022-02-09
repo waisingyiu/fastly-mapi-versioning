@@ -1,0 +1,1 @@
+# fastly-mapi-versioning
